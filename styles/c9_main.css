@@ -193,6 +193,9 @@ footer p {
 @media only screen and (max-width: 648px) {
 	header img { float: none; }
 	header { text-align: center; }
+	main{
+		display:column;
+	}
 	section {
 		float: none;
 		width: 95%;
