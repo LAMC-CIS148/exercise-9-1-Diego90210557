@@ -49,8 +49,11 @@ header img {
 }
 #nav_menu ul li {
 	float: left;
-    width: 20%;                 /* 160 / 800 x 100 */
+	display:block;
+	flex-bias:20%;
+	justify-content:space-evenly;
 }
+
 #nav_menu ul li a {
     display: block;
     text-align: center;
