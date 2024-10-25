@@ -198,10 +198,12 @@ footer p {
 	}
 	section {
 		float: none;
+		order:0;
 		width: 95%;
 	}
 	aside {
 		float: none;
+		order:1;
 		padding-right: 2.5%;
 		width: 95%;
 	}
